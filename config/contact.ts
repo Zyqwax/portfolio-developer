@@ -26,7 +26,7 @@ interface ContactConfig {
 export const contactConfig: ContactConfig = {
   email: "mail@enessamedgozlu.com",
   location: "Antalya, Türkiye",
-  resumeUrl: "/resume.pdf", // veya bir Google Drive linki
+  resumeUrl: "/cv.pdf", // veya bir Google Drive linki
 
   socialLinks: [
     {
