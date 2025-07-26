@@ -25,7 +25,7 @@ export const keywords = [
 ];
 
 export const siteUrl = "https://enessamedgozlu.com.tr"; // kendi domainin
-export const ogImage = "/og-image.jpg";
+export const ogImage = "/thumbnail.png";
 export const locale = "en_US";
 
 // Sosyal
