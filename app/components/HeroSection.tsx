@@ -30,12 +30,14 @@ export default function HeroSection() {
             <p className="text-green-500">$ skills</p>
             <div className="flex flex-wrap gap-2 mt-2">
               {skills.map((skill, id) => (
-                <span
+                <motion.span
                   key={id}
-                  className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                  whileHover={{ scale: 1.1 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                  className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20 cursor-pointer"
                 >
                   {skill}
-                </span>
+                </motion.span>
               ))}
             </div>
           </div>
